@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Hero = () => {
@@ -10,14 +11,16 @@ const Hero = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
-              <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                ¡Cuidamos tu salud donde quiera que estes!
-                </h1>
-                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+              {/* <div className="mx-auto max-w-[800px] text-left"> */}
+              
+              <div className="max-w-[800px] text-left">
+                <p className="mb-12 text-base !leading-relaxed text-sky-600 dark:text-body-color-dark sm:text-lg md:text-xl">
                 Servicio de Telemedicina con Consultas ilimitadas Todo el año
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <h1 className="mb-5 text-3xl font-bold leading-tight text-sky-600 dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                ¡Cuidamos tu salud donde quiera que estes!
+                </h1>
+                <div className="flex flex-col items-center justify-left space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://nextjstemplates.com/templates/saas-starter-startup"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
@@ -37,8 +40,14 @@ const Hero = () => {
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
          
+        <Image
+          src="/images/hero/IMAGEN-DOCTOR.png"
+          width={1200}
+          height={1000}
+          alt="Imagen"
+        />
          
-          <svg
+          {/* <svg
             width="450"
             height="556"
             viewBox="0 0 450 556"
@@ -173,9 +182,9 @@ const Hero = () => {
                 <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
               </linearGradient>
             </defs>
-          </svg>
+          </svg> */}
         </div>
-        <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
+        {/* <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="364"
             height="201"
@@ -277,7 +286,7 @@ const Hero = () => {
               </radialGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
       </section>
     </>
   );

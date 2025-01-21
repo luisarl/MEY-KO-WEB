@@ -5,20 +5,20 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Elige y compra tu membresía",
+    // designation: "Founder @TailGrids",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Elige la membresía que mas se adapte a tus necesidades y realiza el proceso de compra.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
     boton: 'Compra tu membresia',
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Activa tu membresía",
+    // designation: "Founder @UIdeck",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Recibirás un correo con tu código de membresía, debes activarlo según el tipo de plan que compraste.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
     boton: 'Activa tu membresia',
@@ -26,13 +26,13 @@ const testimonialData: Testimonial[] = [
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Disfruta de tu membresia",
+    // designation: "Founder @Lineicons",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "¡Listo! Ya puedes disfrutar de tus beneficios descargando nuestra app.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
-    boton: 'Inicio Sesión',
+    boton: 'Inicia Sesión',
   },
 ];
 

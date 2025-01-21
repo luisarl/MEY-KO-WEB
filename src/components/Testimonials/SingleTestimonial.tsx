@@ -35,7 +35,7 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
         </div>
         {/* <div className="mb-5 flex items-center space-x-1">{ratingIcons}</div> */}
         <p className="mb-8 border-b border-body-color border-opacity-10 pb-8 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-10 dark:text-white">
-          “{content}
+          {content}
         </p>
         <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
           <button className="flex w-full items-center justify-center rounded-sm bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">

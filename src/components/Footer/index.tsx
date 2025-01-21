@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    src="/images/logo/LOGO-MENU-MEY-KO.png"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
@@ -27,8 +27,11 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Mey-ko Atiempo
+                </p>
+                <p className="mb-9 text-base leading-relaxed text-justify text-body-color dark:text-body-color-dark">
+                  Es una moderna plataforma diseñada bajo concepto multiproducto y multilenguaje, de asistencia medica, de facil y seguro acceso que les permite 
+                  a los usuarios obtener beneficios a través de la atrención medica ofrecida por el staff medico de Mey-Ko Atiempo.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -112,72 +115,98 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                  SITE MAP
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/blog"
+                      href="/#"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Blog
+                      Comprar plan
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/#"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Pricing
+                      Activar Plan
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="/#"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      Afiliados
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/#"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Corporativos
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/#"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Embajadores
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/#"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Sucursales
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/#"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Terminos de Privacidad
                     </Link>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                  APP
                 </h2>
                 <ul>
                   <li>
-                    <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      TOS
-                    </Link>
+                      <Image
+                        src="/images/about/BOTON-APPLE.png"
+                        alt="playstore"
+                        width={400}
+                        height={200}
+                        className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+                      />
                   </li>
                   <li>
-                    <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Privacy Policy
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Refund Policy
-                    </Link>
+                    <Image
+                      src="/images/about/BOTON-GOOGLE.png"
+                      alt="appstore"
+                      width={400}
+                      height={200}
+                      className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+                    />
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
+            {/* <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Support & Help
@@ -209,30 +238,22 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by{" "}
+              
               <a
-                href="http://uideck.com"
+                href="mailto:ventas@meyko.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                UIdeck
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://nextjstemplates.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                Next.js Templates
+                ventas@meyko.com
               </a>
+              
             </p>
           </div>
         </div>

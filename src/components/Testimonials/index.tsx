@@ -11,6 +11,7 @@ const testimonialData: Testimonial[] = [
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
+    boton: 'Compra tu membresia',
   },
   {
     id: 2,
@@ -20,6 +21,8 @@ const testimonialData: Testimonial[] = [
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
+    boton: 'Activa tu membresia',
+
   },
   {
     id: 3,
@@ -29,6 +32,7 @@ const testimonialData: Testimonial[] = [
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
+    boton: 'Inicio Sesión',
   },
 ];
 
@@ -37,8 +41,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Cómo acceder a tu membresia M-KARE"
+          paragraph=""
           center
         />
 
@@ -48,7 +52,7 @@ const Testimonials = () => {
           ))}
         </div>
       </div>
-      <div className="absolute right-0 top-5 z-[-1]">
+      {/* <div className="absolute right-0 top-5 z-[-1]">
         <svg
           width="238"
           height="531"
@@ -101,8 +105,8 @@ const Testimonials = () => {
             </linearGradient>
           </defs>
         </svg>
-      </div>
-      <div className="absolute bottom-5 left-0 z-[-1]">
+      </div> */}
+      {/* <div className="absolute bottom-5 left-0 z-[-1]">
         <svg
           width="279"
           height="106"
@@ -175,7 +179,7 @@ const Testimonials = () => {
             </linearGradient>
           </defs>
         </svg>
-      </div>
+      </div> */}
     </section>
   );
 };

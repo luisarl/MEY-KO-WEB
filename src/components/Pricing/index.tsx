@@ -79,9 +79,9 @@ const Pricing = () => {
             duration={isMonthly ? "Anuales" : "Anuales"}
             subtitle="Individual"
           >
-            <OfferList text="MEDIDOR DE AZUCAR AL 50% DE DESCUENTO." status="active" />
-            <OfferList text="ASESORIA MÉDICA." status="active" />
-            <OfferList text="ASESORIA NUTRICIONAL." status="active" />
+            <OfferList text="Medidor de azúcar al 50% de descuento." status="active" />
+            <OfferList text="Asesoría médica." status="active" />
+            <OfferList text="Asesoría nutricional." status="active" />
             <OfferList text="10% de descuento permanente." status="active" />
             <OfferList text="Validacion de recetas internacionales." status="active" />
             <OfferList text="Segunda opinión medica." status="active" />

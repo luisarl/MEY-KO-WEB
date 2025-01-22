@@ -41,10 +41,10 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header bg-blue-900 left-0 top-0 z-40 flex w-full items-center ${
+        className={`header bg-primary left-0 top-0 z-40 flex w-full items-center ${
           sticky
-            ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] bg-blue-900 !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
-            : "absolute bg-blue-900"
+            ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] bg-primary !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
+            : "absolute bg-primary"
         }`}
       >
         <div className="container">
@@ -58,14 +58,14 @@ const Header = () => {
               >
                 <Image
                   // src="/images/logo/logo-2.svg"
-                  src="/images/logo/LOGO-MENU-MEY-KO.png"
+                  src="/images/logo/LOGO-MEY-KO.png"
                   alt="logo"
                   width={140}
-                  height={30}
+                  height={50}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/LOGO-MENU-MEY-KO.png"
+                  src="/images/logo/LOGO-MEY-KO.png"
                   alt="logo"
                   width={140}
                   height={30}
@@ -169,7 +169,7 @@ const Header = () => {
                 />
                 <Link
                   href="#"
-                  className="hidden py-3 pr-6 text-white font-medium text-dark hover:opacity-70 dark:text-white md:block"
+                  className="hidden py-3 pr-6 text-white font-medium hover:opacity-70 dark:text-white md:block"
                 >
                   TIENDA MEY-KO
                 </Link>
@@ -184,40 +184,45 @@ const Header = () => {
                 />
                 <Link
                   href="#"
-                  className="hidden py-3 pr-6 text-white font-medium text-dark hover:opacity-70 dark:text-white md:block"
+                  className="hidden py-3 pr-6 text-white font-medium hover:opacity-70 dark:text-white md:block"
                 >
                   TELEMEDICINA
                 </Link>
               </div>
 
               <div className="mb-0">
-                <Image className="justify-center"
-                  src="/images/header/telemedicine.png"
+                <Image className="items-center justify-center text-center"
+                  src="/images/header/click.png"
                   width={40}
                   height={40}
                   alt="Imagen"
                 />
                 <Link
                   href="#"
-                  className="hidden py-3 pr-6 text-white font-medium text-dark hover:opacity-70 dark:text-white md:block"
+                  className="hidden py-3 pr-6 text-white font-medium hover:opacity-70 dark:text-white md:block"
                 >
                   SUSCRIBETE
                 </Link>
               </div>
                 
-                {/* <Link
-                  href="/signup"
-                  className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
-                >
-                  Sign Up
-                </Link> */}
-                <div>
+                
+               
+                {/* <div>
                   <ThemeToggler />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
+        <div className="float-end pb-50 mr-10">
+                  <Image
+                      src="/images/logo/LOGO-ATIEMPO.png"
+                      alt="logo atiempo"
+                      width={140}
+                      height={50}
+                      
+                    />
+                </div>
       </header>
     </>
   );

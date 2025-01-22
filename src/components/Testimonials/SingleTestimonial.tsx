@@ -19,26 +19,26 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
   }
 
   return (
-    <div className="w-full">
+    <div className="w-full flex">
       
-      <div className="rounded-sm bg-white p-8 shadow-two duration-300 hover:shadow-one dark:bg-dark dark:shadow-three dark:hover:shadow-gray-dark lg:px-5 xl:px-8">
+      <div className="rounded-sm bg-primary p-8 shadow-two duration-300 hover:shadow-one dark:bg-dark dark:shadow-three dark:hover:shadow-gray-dark lg:px-5 xl:px-8">
       <div className="flex flex-col items-center">
-          <div className="relative mb-5 h-[50px] w-full max-w-[50px] overflow-hidden rounded-full">
+          <div className="relative items-center justify-center mb-5 h-[200px] max-w-[200px] bg-white overflow-hidden rounded-full">
             <Image src={image} alt={name}  width={200} height={200}/>
           </div>
           <div className="w-full items-center justify-center text-center">
-            <h3 className="mb-5 border-b border-body-color border-opacity-10 text-lg font-semibold text-dark dark:text-white lg:text-base xl:text-lg">
+            <h3 className="mb-5 border-b border-white border-opacity-10 text-lg font-semibold text-white dark:text-white lg:text-base xl:text-lg">
               {name}
             </h3>
             {/* <p className="text-sm text-body-color">{designation}</p> */}
           </div>
         </div>
         {/* <div className="mb-5 flex items-center space-x-1">{ratingIcons}</div> */}
-        <p className="mb-8 border-b border-body-color border-opacity-10 pb-8 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-10 dark:text-white">
+        <p className="mb-8 border-b border-white border-opacity-10 pb-8 text-base leading-relaxed text-white dark:border-white dark:border-opacity-10 dark:text-white">
           {content}
         </p>
-        <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
-          <button className="flex w-full items-center justify-center rounded-sm bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+        <div className="mb-8 border-b border-white border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
+          <button className="flex w-full border border-white items-center justify-center rounded-md bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
             {boton}
           </button>
         </div>

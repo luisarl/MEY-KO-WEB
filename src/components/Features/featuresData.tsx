@@ -7,8 +7,8 @@ const featuresData: Feature[] = [
     icon: (
       <Image
           src="/images/features/TELEMEDICINA.png"
-          width={1200}
-          height={1000}
+          width={120}
+          height={120}
           alt="Imagen"
         />
     ),
@@ -20,9 +20,9 @@ const featuresData: Feature[] = [
     id: 1,
     icon: (
       <Image
-          src="/images/features/glucometer.png"
-          width={1200}
-          height={1000}
+          src="/images/features/GLUCOMETER.png"
+          width={120}
+          height={120}
           alt="Imagen"
         />
     ),
@@ -35,8 +35,8 @@ const featuresData: Feature[] = [
     icon: (
       <Image
           src="/images/features/SIGNO-DOCTOR.png"
-          width={1200}
-          height={1000}
+          width={120}
+          height={120}
           alt="Imagen"
         />
     ),
@@ -49,8 +49,8 @@ const featuresData: Feature[] = [
     icon: (
       <Image
           src="/images/features/CORAZON.png"
-          width={1200}
-          height={1000}
+          width={120}
+          height={120}
           alt="Imagen"
         />
     ),
@@ -63,8 +63,8 @@ const featuresData: Feature[] = [
     icon: (
       <Image
           src="/images/features/PSICOLOGO.png"
-          width={1200}
-          height={1000}
+          width={120}
+          height={120}
           alt="Imagen"
         />
     ),
@@ -77,8 +77,8 @@ const featuresData: Feature[] = [
     icon: (
       <Image
           src="/images/features/ARCHIVO.png"
-          width={1200}
-          height={1000}
+          width={120}
+          height={120}
           alt="Imagen"
         />
     ),
@@ -91,8 +91,8 @@ const featuresData: Feature[] = [
     icon: (
       <Image
           src="/images/features/AVION.png"
-          width={1200}
-          height={1000}
+          width={120}
+          height={120}
           alt="Imagen"
         />
     ),
@@ -105,8 +105,8 @@ const featuresData: Feature[] = [
     icon: (
       <Image
           src="/images/features/PORCENT.png"
-          width={1200}
-          height={1000}
+          width={120}
+          height={120}
           alt="Imagen"
         />
     ),

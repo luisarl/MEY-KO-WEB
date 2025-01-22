@@ -4,8 +4,9 @@ const PricingBox = (props: {
   packageName: string;
   subtitle: string;
   children: React.ReactNode;
+  boton: any;
 }) => {
-  const { price, duration, packageName, subtitle, children } = props;
+  const { price, duration, packageName, subtitle, children, boton } = props;
 
   return (
     <div className="w-full flex">
@@ -30,9 +31,7 @@ const PricingBox = (props: {
           </div>
         <div className="px-9 py-3">{children}</div>
         <div className="mb-8 px-5 border-b border-body-color border-opacity-10 pb-8  dark:border-white dark:border-opacity-10">
-          <button className="flex w-full items-center justify-center rounded-lg bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-            Comprar esta membresía
-          </button>
+          {boton}
         </div>
       </div>
     </div>

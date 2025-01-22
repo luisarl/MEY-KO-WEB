@@ -8,49 +8,53 @@ const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
 
   return (
-    <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section id="pricing" className="relative z-10 py-10 md:py-10 lg:py-10">
       <div className="container">
         <SectionTitle
           title="Membresías"
           paragraph="Que se Adaptan a tus Necesidades."
-          center
+          
           width="665px"
         />
         
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-2">
           <PricingBox
-            packageName="MK-ARE GOLD"
+            packageName="MK-ARE"
             price={isMonthly ? "25" : "25"}
             duration={isMonthly ? "Anuales" : "Anuales"}
-            subtitle="Individual"
+            subtitle=""
+            boton ={
+                <button className="flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-amber-400 via-white to-amber-500 p-3 text-base font-bold text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                  Comprar esta membresía 
+                  GOLD
+                </button>
+            }
           >
-            <OfferList text="Recibe una teleconsulta de asesoria medica en cualquier especialidad o nuticional por
-            inscripción a la membresia." status="active" />
-            {/* <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" /> */}
+            <OfferList text="1 Teleconsulta gratis en cualquier especialidad  por
+            suscribirte a la membresía." status="active" />
+            <OfferList text="5% de descuento permanente anual en tienda Mey-Ko (Tarifa Pública)." status="active" />
+            <OfferList text="Acumulación doble de puntos del programa de lealtad Mey-Ko por cada compra que realices." status="active" />
           </PricingBox>
-
+          
           <PricingBox
-            packageName="MK-ARE PLATINIUM"
+            packageName="MK-ARE"
             price={isMonthly ? "50" : "50"}
             duration={isMonthly ? "Anuales" : "Anuales"}
-            subtitle="Individual"
+            subtitle=""
+            boton={
+              <button className="flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-gray-500 via-white to-gray-500 p-3 text-base font-bold text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+              Comprar esta membresía 
+              PLATINIUM
+            </button>
+            }
           >
+            <OfferList text="Telemedicina." status="active" />
             <OfferList text="Medidor de azúcar al 50% de descuento." status="active" />
             <OfferList text="Asesoría médica." status="active" />
             <OfferList text="Asesoría nutricional." status="active" />
-            <OfferList text="10% de descuento permanente." status="active" />
-            <OfferList text="Validacion de recetas internacionales." status="active" />
+            <OfferList text="Validación de recetas internacionales." status="active" />
             <OfferList text="Segunda opinión medica." status="active" />
-            <OfferList text="Teleconsultas ilimitadas en cualquiera de nuestras 15 especialidades 24/07/365." status="active" />
-            {/* <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" /> */}
+            <OfferList text="Acumulación doble de puntos del programa de lealtad Mey-Ko por cada compra que realices." status="active" />
           </PricingBox>
 
         </div>

@@ -38,13 +38,17 @@ const testimonialData: Testimonial[] = [
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-body-color bg-opacity-20 relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="dark:bg-bg-color-dark bg-body-color relative z-10 py-10 md:py-10 lg:py-10">
       <div className="container">
-        <SectionTitle
-          title="Cómo acceder a tu membresia M-KARE"
-          paragraph=""
-          center
-        />
+        <div className="w-full mx-auto text-center mb-10">
+            <h2 className="mb-4 text-3xl font-bold !leading-tight text-white dark:text-white sm:text-4xl md:text-[45px]">
+              Cómo acceder a tu membresia M-KARE
+            </h2>
+            <p className="text-base !leading-relaxed text-body-color md:text-lg">
+              
+            </p>
+        </div>
+
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           {testimonialData.map((testimonial) => (

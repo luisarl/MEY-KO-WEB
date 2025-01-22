@@ -5,12 +5,12 @@ import featuresData from "./featuresData";
 const Features = () => {
   return (
     <>
-      <section id="features" className="py-16 md:py-20 lg:py-28">
+      <section id="features" className="py-10 md:py-10 lg:py-10">
         <div className="container">
           <SectionTitle
             title="¿Por qué elegir M-KARE?"
             paragraph=""
-            center
+            
           />
 
           <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-4">

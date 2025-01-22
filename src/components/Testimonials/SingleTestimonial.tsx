@@ -38,7 +38,7 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
           {content}
         </p>
         <div className="mb-8 border-b border-white border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
-          <button className="flex w-full border border-white items-center justify-center rounded-md bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+          <button className="flex w-full border border-white items-center justify-center rounded-lg bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
             {boton}
           </button>
         </div>

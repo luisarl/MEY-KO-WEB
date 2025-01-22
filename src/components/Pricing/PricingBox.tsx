@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const PricingBox = (props: {
   price: string;
   duration: string;
@@ -5,17 +7,21 @@ const PricingBox = (props: {
   subtitle: string;
   children: React.ReactNode;
   boton: any;
+  image;
 }) => {
-  const { price, duration, packageName, subtitle, children, boton } = props;
+  const { price, duration, packageName, image, subtitle, children, boton } = props;
 
   return (
     <div className="w-full flex">
       <div className="relative z-10 rounded-lg border-2 border-primary bg-white shadow-three hover:shadow-one dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark">
           <div className="bg-primary flex flex-col items-center justify-center">
             <div className="px-3 py-3">
-              <h4 className="text-xl font-bold text-white dark:text-white">
+              {/* <h4 className="text-xl font-bold text-white dark:text-white">
                 {packageName}
-              </h4>
+              </h4> */}
+              <div className="relative mt-5 items-center justify-center  h-[100px] max-w-[400px] overflow-hidden ">
+                <Image src={image} alt='mkare' width={400} height={200}/>
+              </div>
             </div>
             <div>
               <p className="mb-5 px-3 text-white">{subtitle}</p>

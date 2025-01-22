@@ -19,6 +19,7 @@ const Pricing = () => {
         
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-2">
           <PricingBox
+            image="/images/logo/M-KareTITULO-BLANCO.png"
             packageName="MK-ARE"
             price={isMonthly ? "25" : "25"}
             duration={isMonthly ? "Anuales" : "Anuales"}
@@ -37,6 +38,7 @@ const Pricing = () => {
           </PricingBox>
           
           <PricingBox
+            image="/images/logo/M-KareTITULO-BLANCO.png"
             packageName="MK-ARE"
             price={isMonthly ? "50" : "50"}
             duration={isMonthly ? "Anuales" : "Anuales"}

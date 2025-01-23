@@ -30,4 +30,10 @@
   input#checkboxLabel:checked ~ .box span {
     @apply opacity-100;
   }
+
+  .boton-membresia
+  { 
+    -webkit-text-stroke: 2px white;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
 }

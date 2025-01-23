@@ -25,8 +25,9 @@ const Pricing = () => {
             duration={isMonthly ? "Anuales" : "Anuales"}
             subtitle=""
             boton ={
-                <button className="flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-amber-400 via-white to-amber-500 p-3 text-base font-bold text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                <button className="flex w-full mt-40 items-center justify-center rounded-lg bg-gradient-to-r from-amber-400 via-white to-amber-500 p-3 boton-membresia text-[40px] font-black text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
                   Comprar esta membresía 
+                  <br />
                   GOLD
                 </button>
             }
@@ -44,10 +45,12 @@ const Pricing = () => {
             duration={isMonthly ? "Anuales" : "Anuales"}
             subtitle=""
             boton={
-              <button className="flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-gray-500 via-white to-gray-500 p-3 text-base font-bold text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-              Comprar esta membresía 
-              PLATINIUM
-            </button>
+              <button className="flex w-full mt-10 items-center justify-center rounded-lg bg-gradient-to-r from-gray-500 via-white to-gray-500 p-3 boton-membresia text-[40px] font-black text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+
+                Comprar esta membresía 
+                <br />
+                PLATINIUM
+              </button>
             }
           >
             <OfferList text="Telemedicina." status="active" />

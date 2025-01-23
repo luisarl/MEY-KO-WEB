@@ -1,6 +1,7 @@
 import { Testimonial } from "@/types/testimonial";
 import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
+import Image from "next/image";
 
 const testimonialData: Testimonial[] = [
   {
@@ -42,7 +43,13 @@ const Testimonials = () => {
       <div className="container">
         <div className="w-full mx-auto text-center mb-10">
             <h2 className="mb-4 text-3xl font-bold !leading-tight text-white dark:text-white sm:text-4xl md:text-[45px]">
-              Cómo acceder a tu membresia M-KARE
+              Cómo acceder a tu membresia  
+              <Image className="inline-flex ml-5 "
+                src="/images/logo/M-KareTITULO-BLANCO.png" 
+                alt='mkare' 
+                width={300} 
+                height={100}
+              />
             </h2>
             <p className="text-base !leading-relaxed text-body-color md:text-lg">
               

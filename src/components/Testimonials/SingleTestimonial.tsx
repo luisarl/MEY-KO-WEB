@@ -34,7 +34,7 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
           </div>
         </div>
         {/* <div className="mb-5 flex items-center space-x-1">{ratingIcons}</div> */}
-        <p className="mb-8 border-b border-white border-opacity-10 pb-8 text-base leading-relaxed text-white dark:border-white dark:border-opacity-10 dark:text-white">
+        <p className="mb-8 align-bottom justify-end items-center border-b border-white border-opacity-10 pb-8 text-base leading-relaxed text-white dark:border-white dark:border-opacity-10 dark:text-white">
           {content}
         </p>
         <div className="mb-8 border-b border-white border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">

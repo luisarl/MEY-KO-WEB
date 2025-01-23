@@ -13,7 +13,7 @@ const PricingBox = (props: {
 
   return (
     <div className="w-full flex">
-      <div className="relative z-10 rounded-lg border-2 border-primary bg-white shadow-three hover:shadow-one dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark">
+      <div className="relative z-10 rounded-xl border-2 border-primary bg-white shadow-three hover:shadow-one dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark">
           <div className="bg-primary flex flex-col items-center justify-center">
             <div className="px-3 py-3">
               {/* <h4 className="text-xl font-bold text-white dark:text-white">

@@ -3,21 +3,31 @@ import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
+import Link from "next/link";
 
 const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
 
   return (
     <section id="pricing" className="relative z-10 py-10 md:py-10 lg:py-10">
-      <div className="container">
+      <div className="container flex flex-row">
         <SectionTitle
           title="Membresías"
           paragraph="Que se Adaptan a tus Necesidades."
           
           width="665px"
         />
-        
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-2">
+        <div className="mt-20 items-center justify-left space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+          <Link
+            href="#"
+            className="rounded-lg bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+          >
+            Individual
+          </Link>
+        </div>
+      </div>
+      <div className="container">
+        <div className="grid grid-cols-1 gap-x-40 gap-y-10 md:grid-cols-2 lg:grid-cols-2">
           <PricingBox
             image="/images/logo/M-KareTITULO-BLANCO.png"
             packageName="MK-ARE"
@@ -25,7 +35,7 @@ const Pricing = () => {
             duration={isMonthly ? "Anuales" : "Anuales"}
             subtitle=""
             boton ={
-                <button className="flex w-full mt-40 items-center justify-center rounded-lg bg-gradient-to-r from-amber-400 via-white to-amber-500 p-3 boton-membresia text-[40px] font-black text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                <button className="flex w-full mt-40 items-center justify-center rounded-lg bg-gradient-to-r from-amber-400 via-white to-amber-500 p-3 boton-membresia text-[35px] font-black text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
                   Comprar esta membresía 
                   <br />
                   GOLD
@@ -45,7 +55,7 @@ const Pricing = () => {
             duration={isMonthly ? "Anuales" : "Anuales"}
             subtitle=""
             boton={
-              <button className="flex w-full mt-10 items-center justify-center rounded-lg bg-gradient-to-r from-gray-500 via-white to-gray-500 p-3 boton-membresia text-[40px] font-black text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+              <button className="flex w-full mt-16 items-center justify-center rounded-lg bg-gradient-to-r from-gray-500 via-white to-gray-500 p-3 boton-membresia text-[35px] font-black text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
 
                 Comprar esta membresía 
                 <br />

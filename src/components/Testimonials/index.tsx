@@ -10,7 +10,7 @@ const testimonialData: Testimonial[] = [
     designation: "",
     content:
       "Elige la membresía que mas se adapte a tus necesidades y realiza el proceso de compra.",
-    image: "/images/testimonials/FOTO-1.png",
+    image: "/images/testimonials/MEDICO-1.png",
     star: 5,
     boton: 'Compra tu membresia',
   },
@@ -20,7 +20,7 @@ const testimonialData: Testimonial[] = [
     designation: "",
     content:
       "Recibirás un correo con tu código de membresía, debes activarlo según el tipo de plan que compraste.",
-    image: "/images/testimonials/FOTO-2.png",
+    image: "/images/testimonials/MEDICO-2.png",
     star: 5,
     boton: 'Activa tu membresia',
 
@@ -31,7 +31,7 @@ const testimonialData: Testimonial[] = [
     designation: "",
     content:
       "¡Listo! Ya puedes disfrutar de tus beneficios descargando nuestra app.",
-    image: "/images/testimonials/FOTO-3.png",
+    image: "/images/testimonials/MEDICO-3.png",
     star: 5,
     boton: 'Inicia Sesión',
   },

@@ -35,11 +35,13 @@ const Pricing = () => {
             duration={isMonthly ? "Anuales" : "Anuales"}
             subtitle=""
             boton ={
+              <a href="#">
                 <button className="flex w-full mt-40 items-center justify-center rounded-lg bg-gradient-to-r from-amber-400 via-white to-amber-500 p-3 boton-membresia text-[35px] font-black text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
                   Comprar esta membresía 
                   <br />
                   GOLD
                 </button>
+              </a>
             }
           >
             <OfferList text="1 Teleconsulta gratis en cualquier especialidad  por
@@ -55,12 +57,13 @@ const Pricing = () => {
             duration={isMonthly ? "Anuales" : "Anuales"}
             subtitle=""
             boton={
-              <button className="flex w-full mt-16 items-center justify-center rounded-lg bg-gradient-to-r from-gray-500 via-white to-gray-500 p-3 boton-membresia text-[35px] font-black text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-
-                Comprar esta membresía 
-                <br />
-                PLATINIUM
-              </button>
+              <a href="#">
+                <button className="flex w-full mt-16 items-center justify-center rounded-lg bg-gradient-to-r from-gray-500 via-white to-gray-500 p-3 boton-membresia text-[35px] font-black text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                  Comprar esta membresía 
+                  <br />
+                  PLATINIUM
+                </button>
+              </a>
             }
           >
             <OfferList text="Telemedicina." status="active" />

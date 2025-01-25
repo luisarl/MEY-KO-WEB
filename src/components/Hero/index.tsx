@@ -35,17 +35,6 @@ const Hero = () => {
           </div>
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
-         
-          <div className="mt-10 absolute z-[9999]">
-            <Image
-                // src="/images/logo/logo-2.svg"
-                src="/images/hero/LINEA-DE-VIDA.png"
-                alt="logo"
-                width={2000}
-                height={50}
-                className=""
-              />
-          </div>
           <Image
             src="/images/hero/IMAGEN-DOCTOR.png"
             width={1200}

@@ -61,16 +61,10 @@ const Header = () => {
                   src="/images/logo/LOGO-MEY-KO.png"
                   alt="logo"
                   width={140}
-                  height={50}
+                  height={60}
                   className="w-full dark:hidden"
                 />
-                <Image
-                  src="/images/logo/LOGO-MEY-KO.png"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
-                />
+
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
@@ -160,53 +154,45 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
-              <div className="mb-0">
-                <Image
-                  src="/images/header/shopping.png"
-                  width={40}
-                  height={40}
-                  alt="Imagen"
-                />
-                <Link
-                  href="#"
-                  className="hidden py-3 pr-6 text-white font-medium hover:opacity-70 dark:text-white md:block"
-                >
-                  TIENDA MEY-KO
-                </Link>
+     
+              <div className="mb-0 z-[1000] items-center justify-center content-center">
+                <a href="/" 
+                className="hidden py-3 pr-6 text-white font-medium hover:opacity-70 dark:text-white md:block">
+                  <Image className="items-center justify-center text-center pt4"
+                    src="/images/header/shopping.png"
+                    width={40}
+                    height={40}
+                    alt="Imagen"
+                  />
+                     TIENDA MEY-KO
+                </a>
               </div>
 
-              <div className="mb-0">
-                <Image className="justify-center"
-                  src="/images/header/telemedicine.png"
-                  width={40}
-                  height={40}
-                  alt="Imagen"
-                />
-                <Link
-                  href="#"
-                  className="hidden py-3 pr-6 text-white font-medium hover:opacity-70 dark:text-white md:block"
-                >
-                  TELEMEDICINA
-                </Link>
+              <div className="mb-0 z-[1000]">
+                <a href="/" 
+                className="hidden py-3 pr-6 text-white font-medium hover:opacity-70 dark:text-white md:block">
+                  <Image className="items-center justify-center text-center pt4"
+                     src="/images/header/telemedicine.png"
+                    width={40}
+                    height={40}
+                    alt="Imagen"
+                  />
+                    TELEMEDICINA
+                </a>
               </div>
 
-              <div className="mb-0">
-                <Image className="items-center justify-center text-center"
-                  src="/images/header/click.png"
-                  width={40}
-                  height={40}
-                  alt="Imagen"
-                />
-                <Link
-                  href="#"
-                  className="hidden py-3 pr-6 text-white font-medium hover:opacity-70 dark:text-white md:block"
-                >
-                  SUSCRIBETE
-                </Link>
-              </div>
-                
-                
-               
+              <div className="mb-0 z-[1000]">
+                <a href="/" 
+                className="hidden py-3 pr-6 text-white font-medium hover:opacity-70 dark:text-white md:block">
+                  <Image className="items-center justify-center text-center pt4"
+                    src="/images/header/click.png"
+                    width={40}
+                    height={40}
+                    alt="Imagen"
+                  />
+                    SUSCRIBETE
+                </a>
+              </div>  
                 {/* <div>
                   <ThemeToggler />
                 </div> */}
@@ -214,16 +200,28 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="float-end pb-50 mr-10">
-                  <Image
-                      src="/images/logo/LOGO-ATIEMPO.png"
-                      alt="logo atiempo"
-                      width={140}
-                      height={50}
-                      
-                    />
-                </div>
+          <div className="float-end pb-50 mr-10">
+            <Image
+                src="/images/logo/LOGO-ATIEMPO.png"
+                alt="logo atiempo"
+                width={140}
+                height={50}
+                className="-mt-12"
+                
+              />
+          </div>
+          <div className="mt-[80px] absolute z-[100]">
+            <Image
+                // src="/images/logo/logo-2.svg"
+                src="/images/hero/LINEA-DE-VIDA.png"
+                alt="logo"
+                width={2000}
+                height={50}
+                className="max-h-[120px]"
+              />
+          </div>
       </header>
+      
     </>
   );
 };

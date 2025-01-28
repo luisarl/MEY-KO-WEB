@@ -19,7 +19,8 @@ const Pricing = () => {
         />
         <div className="mt-20 items-center justify-left space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
           <Link
-            href="#"
+            href="https://meyko-desarrollo-16772699.dev.odoo.com/shop/add_to_cart?product_id=58571&add_qty=1"
+            target="_blank"
             className="rounded-lg bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
           >
             Individual
@@ -27,7 +28,7 @@ const Pricing = () => {
         </div>
       </div>
       <div className="container">
-        <div className="grid grid-cols-1 gap-x-40 gap-y-10 md:grid-cols-2 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-x-40  gap-y-10 md:grid-cols-2 lg:grid-cols-2">
           <PricingBox
             image="/images/logo/M-KareTITULO-BLANCO.png"
             packageName="MK-ARE"
@@ -35,7 +36,7 @@ const Pricing = () => {
             duration={isMonthly ? "Anuales" : "Anuales"}
             subtitle=""
             boton ={
-              <a href="#">
+              <a href="https://meyko-desarrollo-16772699.dev.odoo.com/shop/cart" target="_blank">
                 <button className="flex w-full mt-40 items-center justify-center rounded-lg bg-gradient-to-r from-amber-400 via-white to-amber-500 p-3 boton-membresia text-[35px] font-black text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
                   Comprar esta membresía 
                   <br />
@@ -57,7 +58,7 @@ const Pricing = () => {
             duration={isMonthly ? "Anuales" : "Anuales"}
             subtitle=""
             boton={
-              <a href="#">
+              <a href="https://meyko-desarrollo-16772699.dev.odoo.com/shop/add_to_cart?product_id=58573&add_qty=1" target="_blank">
                 <button className="flex w-full mt-16 items-center justify-center rounded-lg bg-gradient-to-r from-gray-500 via-white to-gray-500 p-3 boton-membresia text-[35px] font-black text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
                   Comprar esta membresía 
                   <br />

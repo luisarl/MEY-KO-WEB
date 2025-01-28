@@ -129,7 +129,7 @@ const Footer = () => {
                   ESCRIBENOS
                 </h2>
                 <form>
-                <div className="flex flex-wrap  bg-primary">
+                <div className="flex flex-wrap  bg-primary rounded-xl">
                   <div className="w-full px-4">
                     <div className="py-8">
                       <input
@@ -213,7 +213,7 @@ const Footer = () => {
               <Image
                 src="/images/redes/instagram.png"
                 alt="instagram"
-                width={100}
+                width={60}
                 height={100}
                 className="mr-5 drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
@@ -222,7 +222,7 @@ const Footer = () => {
               <Image
                 src="/images/redes/linked.png"
                 alt="linked"
-                width={100}
+                width={60}
                 height={100}
                 className="mr-5 drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
@@ -231,7 +231,7 @@ const Footer = () => {
               <Image
                 src="/images/redes/tiktok.png"
                 alt="tiktok"
-                width={100}
+                width={60}
                 height={100}
                 className="mr-5 drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
@@ -240,7 +240,7 @@ const Footer = () => {
               <Image
                 src="/images/redes/whatsapp.png"
                 alt="whatsapp"
-                width={100}
+                width={60}
                 height={100}
                 className="mr-5 drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
@@ -249,7 +249,7 @@ const Footer = () => {
               <Image
                 src="/images/redes/youtube.png"
                 alt="youtube"
-                width={100}
+                width={60}
                 height={100}
                 className="mr-5 drop-shadow-three dark:hidden dark:drop-shadow-none"
               />

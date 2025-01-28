@@ -18,30 +18,29 @@ const AboutSectionOne = () => {
   );
 
   return (
-    <section id="about" className="pt-16 py-10 md:py-10 lg:py-10">
+    <section id="about" className="pt-10 md:pt-10 lg:pt-18">
       <div className="container">
-        <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
-              <div
-                className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
-                data-wow-delay=".15s"
-              >
+        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
+          <div className="-mx-4 flex flex-wrap">
+            
+          <div className="w-full px-4 lg:w-2/5">
+              <div className="relative  aspect-[25/24] max-w-[400px] lg:mr-0">
                 <Image
                   src="/images/about/DOCTORES-ABAJO.png"
-                  alt="about image"
+                  alt="about-image"
                   fill
-                  className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
                   src="/images/about/DOCTORES-ABAJO.png"
-                  alt="about image"
+                  alt="about-image"
                   fill
-                  className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
+                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
                 />
               </div>
             </div>
 
-            <div className="w-full px-4 lg:w-1/2">
+            <div className="w-full px-4 lg:w-3/5">
               <SectionTitle
                 title="Especialidades Cubiertas en Telemedicina"
                 paragraph=""
@@ -49,10 +48,10 @@ const AboutSectionOne = () => {
               />
 
               <div
-                className="mb-12 max-w-[570px] lg:mb-0 "
+                className="mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
-                <div className="mx-[-12px] flex flex-row">
+                <div className="mx-[-12px] flex flex-wrap sm:flex-nowrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Medicina Interna" />
                     <List text="Cardiología" />
@@ -79,9 +78,76 @@ const AboutSectionOne = () => {
                 </div>
               </div>
             </div>
+
+            
           </div>
         </div>
+      </div>
     </section>
+    // <section id="about" className="pt-16 py-10 md:py-10 lg:py-10">
+    //   <div className="container">
+    //     <div className="-mx-4 flex flex-wrap items-center">
+    //         <div className="w-full px-4 lg:w-1/2">
+    //           <div
+    //             className="relative mx-auto mb-12 aspect-[25/24] max-w-[400px] text-center lg:m-0"
+    //             data-wow-delay=".15s"
+    //           >
+    //             <Image
+    //               src="/images/about/DOCTORES-ABAJO.png"
+    //               alt="about image"
+    //               fill
+    //               className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+    //             />
+    //             <Image
+    //               src="/images/about/DOCTORES-ABAJO.png"
+    //               alt="about image"
+    //               fill
+    //               className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
+    //             />
+    //           </div>
+    //         </div>
+
+    //         <div className="w-full px-4 lg:w-1/2">
+    //           <SectionTitle
+    //             title="Especialidades Cubiertas en Telemedicina"
+    //             paragraph=""
+    //             mb="44px"
+    //           />
+
+    //           <div
+    //             className="mb-12 max-w-[570px] lg:mb-0"
+    //             data-wow-delay=".15s"
+    //           >
+    //             <div className="mx-[-12px] flex flex-nowrap">
+    //               <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+    //                 <List text="Medicina Interna" />
+    //                 <List text="Cardiología" />
+    //                 <List text="Pediatría" />
+    //                 <List text="Neurología" />
+    //                 <List text="Gastroenterología" />
+    //               </div>
+
+    //               <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+    //                 <List text="Neumología" />
+    //                 <List text="Ginecología" />
+    //                 <List text="Oftalmología" />
+    //                 <List text="Traumatología" />
+    //                 <List text="Otorrinolaringologia" />
+    //               </div>
+
+    //               <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+    //                 <List text="Nutrición" />
+    //                 <List text="Dietética" />
+    //                 <List text="Psicología" />
+    //                 <List text="Odontología" />
+    //                 <List text="Dermatología" />
+    //               </div>
+    //             </div>
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    // </section>
   );
 };
 

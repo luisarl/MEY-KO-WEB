@@ -3,7 +3,7 @@ import { Menu } from "@/types/menu";
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "Tienda MEY-KO",
+    title: "TIENDA MEY-KO",
     path: "/",
     newTab: true,
     imagen: "/images/header/shopping.png",

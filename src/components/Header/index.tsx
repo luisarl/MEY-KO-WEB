@@ -217,7 +217,7 @@ const Header = () => {
                 
               />
           </div> */}
-          <div className="mt-[80px] absolute z-[100]">
+          <div className="mt-[90px] absolute z-[100]">
             <Image
                 // src="/images/logo/logo-2.svg"
                 src="/images/hero/LINEA-DE-VIDA.png"

@@ -12,7 +12,7 @@ const Features = () => {
             title="¿Por qué elegir M-KARE?"
             paragraph=""
           /> */}
-          <div className="w-full flex flex-row mb-[100px]">
+          <div className="w-full flex flex-row mb-[100px] sm: text-center">
             <h2 className="mb-4 text-3xl font-bold !leading-tight text-primary dark:text-white sm:text-4xl md:text-[45px]">
             ¿Por qué elegir 
 

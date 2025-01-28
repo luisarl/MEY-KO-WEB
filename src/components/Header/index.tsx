@@ -67,9 +67,9 @@ const Header = () => {
 
               </Link>
             </div>
-            <div className="flex w-full items-center justify-between px-4">
+            <div className="flex w-full z-[1000] items-center justify-end px-4">
               <div>
-                {/* <button
+                <button
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
                   aria-label="Mobile Menu"
@@ -90,28 +90,37 @@ const Header = () => {
                       navbarOpen ? " top-[-8px] -rotate-45" : " "
                     }`}
                   />
-                </button> */}
+                </button>
                 <nav
                   id="navbarCollapse"
-                  className={`navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
+                  className={`navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-primary px-6 py-4 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
                     navbarOpen
                       ? "visibility top-full opacity-100"
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
-                  {/* <ul className="block lg:flex lg:space-x-12">
+                  <ul className="block lg:flex lg:space-x-12 ">
                     {menuData.map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
-                            className={`flex py-2 text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
+                            className={`flex py-2 pr-6 text-white font-medium hover:opacity-70 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 z-[1000] ${
                               usePathName === menuItem.path
                                 ? "text-white dark:text-white"
                                 : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
                             }`}
                           >
-                            {menuItem.title}
+                           <div className="items-center justify-center content-center">
+                            <Image className=" pt4"
+                                    src={menuItem.imagen}
+                                    width={40}
+                                    height={40}
+                                    alt="Imagen"
+                                  />
+                              {menuItem.title}
+                           </div>
+                             
                           </Link>
                         ) : (
                           <>
@@ -150,57 +159,55 @@ const Header = () => {
                         )}
                       </li>
                     ))}
-                  </ul> */}
+                  </ul>
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
      
-              <div className="mb-0 z-[1000] items-center justify-center content-center">
-                <a href="/" 
-                className="hidden py-3 pr-6 text-white font-medium hover:opacity-70 dark:text-white md:block">
-                  <Image className="items-center justify-center text-center pt4"
-                    src="/images/header/shopping.png"
-                    width={40}
-                    height={40}
-                    alt="Imagen"
-                  />
-                     TIENDA MEY-KO
-                </a>
-              </div>
+                {/* <div className="mb-0 z-[1000] items-center justify-center content-center">
+                  <a href="/" 
+                  className="py-3 pr-6 text-white font-medium hover:opacity-70 dark:text-white md:block">
+                    <Image className="items-center justify-center text-center pt4"
+                      src="/images/header/shopping.png"
+                      width={40}
+                      height={40}
+                      alt="Imagen"
+                    />
+                      TIENDA MEY-KO
+                  </a>
+                </div>
 
-              <div className="mb-0 z-[1000]">
-                <a href="/" 
-                className="hidden py-3 pr-6 text-white font-medium hover:opacity-70 dark:text-white md:block">
-                  <Image className="items-center justify-center text-center pt4"
-                     src="/images/header/telemedicine.png"
-                    width={40}
-                    height={40}
-                    alt="Imagen"
-                  />
-                    TELEMEDICINA
-                </a>
-              </div>
+                <div className="mb-0 z-[1000]">
+                  <a href="/" 
+                  className="py-3 pr-6 text-white font-medium hover:opacity-70 dark:text-white md:block">
+                    <Image className="items-center justify-center text-center pt4"
+                      src="/images/header/telemedicine.png"
+                      width={40}
+                      height={40}
+                      alt="Imagen"
+                    />
+                      TELEMEDICINA
+                  </a>
+                </div>
 
-              <div className="mb-0 z-[1000]">
-                <a href="/" 
-                className="hidden py-3 pr-6 text-white font-medium hover:opacity-70 dark:text-white md:block">
-                  <Image className="items-center justify-center text-center pt4"
-                    src="/images/header/click.png"
-                    width={40}
-                    height={40}
-                    alt="Imagen"
-                  />
-                    SUSCRIBETE
-                </a>
-              </div>  
-                {/* <div>
-                  <ThemeToggler />
-                </div> */}
+                <div className="mb-0 z-[1000]">
+                  <a href="/" 
+                  className="py-3 pr-6 text-white font-medium hover:opacity-70 dark:text-white md:block">
+                    <Image className="items-center justify-center text-center pt4"
+                      src="/images/header/click.png"
+                      width={40}
+                      height={40}
+                      alt="Imagen"
+                    />
+                      SUSCRIBETE
+                  </a>
+                </div>   */}
+               
               </div>
             </div>
           </div>
         </div>
-          <div className="float-end pb-50 mr-10">
+          {/* <div className="float-end pb-50 mr-10">
             <Image
                 src="/images/logo/LOGO-ATIEMPO.png"
                 alt="logo atiempo"
@@ -209,7 +216,7 @@ const Header = () => {
                 className="-mt-12"
                 
               />
-          </div>
+          </div> */}
           <div className="mt-[80px] absolute z-[100]">
             <Image
                 // src="/images/logo/logo-2.svg"

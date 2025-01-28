@@ -36,7 +36,7 @@ const Pricing = () => {
             duration={isMonthly ? "Anuales" : "Anuales"}
             subtitle=""
             boton ={
-              <a href="https://meyko-desarrollo-16772699.dev.odoo.com/shop/cart" target="_blank">
+              <a href="https://meyko-desarrollo-16772699.dev.odoo.com/shop/add_to_cart?product_id=58572&add_qty=1" target="_blank">
                 <button className="flex w-full mt-40 items-center justify-center rounded-lg bg-gradient-to-r from-amber-400 via-white to-amber-500 p-3 boton-membresia text-[35px] font-black text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
                   Comprar esta membresía 
                   <br />

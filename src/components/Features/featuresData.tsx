@@ -12,9 +12,9 @@ const featuresData: Feature[] = [
           alt="Imagen"
         />
     ),
-    title: "Atencion de salud a través de Telesalud",
+    title: "Atención de salud a través de telemedicina",
     paragraph:
-      "Con medicos Especialistas con disponibilidad Ilimitada 24/7 los 365 dias del año.",
+      "Con médicos especialistas con disponibilidad Ilimitada 24/7 los 365 días del año.",
   },
   {
     id: 1,
@@ -26,7 +26,7 @@ const featuresData: Feature[] = [
           alt="Imagen"
         />
     ),
-    title: "Hasta un 50% de descuento en medidor de azucar.",
+    title: "Hasta un 50% de descuento en medidor de glucosa.",
     paragraph:
       "",
   },
@@ -40,9 +40,9 @@ const featuresData: Feature[] = [
           alt="Imagen"
         />
     ),
-    title: "Asesoramiento médico y Nutricional especializado",
+    title: "Asesoramiento médico y nutricional especializado",
     paragraph:
-      "Las 24 horas, todos los dias",
+      "Las 24 horas, todos los días",
   },
   {
     id: 1,
@@ -54,7 +54,7 @@ const featuresData: Feature[] = [
           alt="Imagen"
         />
     ),
-    title: "Coach de Bienestar & Calidad de vida.",
+    title: "Coach de bienestar & calidad de vida.",
     paragraph:
       "",
   },
@@ -68,7 +68,7 @@ const featuresData: Feature[] = [
           alt="Imagen"
         />
     ),
-    title: "Asesoria Psicológica",
+    title: "Asesoría psicológica",
     paragraph:
       "Se ofrece en horario de lunes a viernes de 8:00 am a 5:00pm.",
   },
@@ -112,7 +112,7 @@ const featuresData: Feature[] = [
     ),
     title: "Descuentos permanentes.",
     paragraph:
-      "5% de descuentos para clientes oro y 10% para clientes platinium en todas sus compras en MEY-KO. *Aplica restricciones*",
+      "5% de descuentos para clientes oro y 10% para clientes platinum en todas sus compras en MEY-KO. *Aplica restricciones*",
   },
 ];
 export default featuresData;

@@ -20,11 +20,11 @@ const Footer = () => {
                   />*/}
 
                 <p className="mb-9 text-base leading-relaxed font-bold text-black dark:text-body-color-dark">
-                  Mey-ko Atiempo
+                  Mey-Ko 
                 </p>
                 <p className="mb-9 text-base leading-relaxed text-justify font-bold text-black dark:text-body-color-dark">
-                  Es una moderna plataforma diseñada bajo concepto multiproducto y multilenguaje, de asistencia medica, de facil y seguro acceso que les permite 
-                  a los usuarios obtener beneficios a través de la atrención medica ofrecida por el staff medico de Mey-Ko Atiempo.
+                  Es una moderna plataforma diseñada bajo concepto multiproducto y multilenguaje, de asistencia médica, de fácil y seguro acceso que les permite 
+                  a los usuarios obtener beneficios a través de la atención medica ofrecida por el staff medico de Mey-Ko.
                 </p>
               </div>
             </div>

@@ -19,7 +19,7 @@ const Features = () => {
               <Image className="inline-flex ml-5 "
                 src="/images/logo/M-KareTITULO-AZUL.png" 
                 alt='mkare' 
-                width={300} 
+                width={200} 
                 height={100}
               />
             ?

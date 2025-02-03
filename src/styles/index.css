@@ -33,7 +33,7 @@
 
   .boton-membresia
   { 
-    -webkit-text-stroke: 2px white;
-    font-family: Nexa, Verdana, Tahoma, sans-serif;
+    /* -webkit-text-stroke: 2px white; */
+    /* font-family: Nexa, Verdana, Tahoma, sans-serif; */
   }
 }

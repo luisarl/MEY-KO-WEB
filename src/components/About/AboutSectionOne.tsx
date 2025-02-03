@@ -65,7 +65,7 @@ const AboutSectionOne = () => {
                     <List text="Ginecología" />
                     <List text="Oftalmología" />
                     <List text="Traumatología" />
-                    <List text="Otorrinolaringologia" />
+                    <List text="Otorrinolaringología" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">

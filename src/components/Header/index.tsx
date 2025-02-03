@@ -112,7 +112,7 @@ const Header = () => {
                             }`}
                           >
                            <div className="items-center justify-center content-center">
-                            <Image className="pt4 ml-6"
+                            <Image className="pt4 ml-[30%] mr[30%]"
                                     src={menuItem.imagen}
                                     width={40}
                                     height={40}

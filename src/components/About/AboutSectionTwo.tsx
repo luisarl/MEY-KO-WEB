@@ -28,7 +28,7 @@ const AboutSectionTwo = () => {
           <div className="w-full px-4 lg:w-1/3">
             <SectionTitle
               title="Descarga Nuestra App"
-              paragraph="Una forma innovadora de llevar tu historia medica."
+              paragraph="¡Cuidamos tu salud donde quiera que estés!"
               mb="44px"
             />
             </div>

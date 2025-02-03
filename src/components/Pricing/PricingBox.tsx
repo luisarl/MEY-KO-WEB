@@ -28,10 +28,11 @@ const PricingBox = (props: {
             </div>
           </div>
           <div className="flex items-center justify-between px-9 py-3">
-            <h3 className="price mb-2 text-[32px] font-bold text-primary dark:text-white">
+            <h3 className="price mb-2 text-[32px] leading-none font-bold text-primary dark:text-white">
                 $<span className="amount">{price}</span>
-                <span className="time text-lg font-medium text-body-color">
-                  /{duration}
+                <br />
+                <span className="time text-lg -mt-14 font-medium text-body-color">
+                  {duration}
                 </span>
               </h3>
           </div>

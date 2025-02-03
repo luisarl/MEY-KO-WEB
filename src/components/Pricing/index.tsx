@@ -37,10 +37,10 @@ const Pricing = () => {
             subtitle=""
             boton ={
               <a href="https://meyko-desarrollo-16772699.dev.odoo.com/shop/add_to_cart?product_id=58572&add_qty=1" target="_blank">
-                <button className="flex w-full mt-40 items-center justify-center rounded-lg bg-gradient-to-r from-amber-400 via-white to-amber-500 p-3 boton-membresia text-[35px] font-black text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-                  Comprar esta membresía 
-                  <br />
-                  GOLD
+                <button className="w-full mt-40 items-center justify-center content-center rounded-lg bg-gradient-to-r from-amber-400 from-50% via-amber-300 via-85% to-amber-300 to-100% p-3 boton-membresia text-[35px]  text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                  Comprar membresía 
+                 <br />
+                 <strong className="font-black text-[50px] body-color">GOLD</strong>
                 </button>
               </a>
             }
@@ -59,10 +59,10 @@ const Pricing = () => {
             subtitle=""
             boton={
               <a href="https://meyko-desarrollo-16772699.dev.odoo.com/shop/add_to_cart?product_id=58573&add_qty=1" target="_blank">
-                <button className="flex w-full mt-16 items-center justify-center rounded-lg bg-gradient-to-r from-gray-500 via-white to-gray-500 p-3 boton-membresia text-[35px] font-black text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-                  Comprar esta membresía 
+                <button className="w-full mt-16 items-center justify-center rounded-lg bg-gradient-to-r from-gray-300 from-70% via-gray-100 via-90% to-gray-300 to-100% p-3 boton-membresia text-[35px]  text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                  Comprar membresía 
                   <br />
-                  PLATINIUM
+                  <strong className="font-black text-[50px]  body-color">PLATINUM</strong>
                 </button>
               </a>
             }

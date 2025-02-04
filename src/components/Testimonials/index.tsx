@@ -12,7 +12,7 @@ const testimonialData: Testimonial[] = [
       "Elige la membresía que mas se adapte a tus necesidades y realiza el proceso de compra.",
     image: "/images/testimonials/MEDICO-1.png",
     star: 5,
-    boton: 'Compra tu membresia',
+    boton: 'Compra tu membresía',
     mt: 5 ,
   },
   {
@@ -23,13 +23,13 @@ const testimonialData: Testimonial[] = [
       "Recibirás un correo con tu código de membresía, debes activarlo según el tipo de plan que compraste.",
     image: "/images/testimonials/MEDICO-2.png",
     star: 5,
-    boton: 'Activa tu membresia',
+    boton: 'Activa tu membresía',
     mt: 5 ,
 
   },
   {
     id: 3,
-    name: "Disfruta de tu membresia",
+    name: "Disfruta de tu membresía",
     designation: "",
     content:
       "¡Listo! Ya puedes disfrutar de tus beneficios descargando nuestra app.",
@@ -46,7 +46,7 @@ const Testimonials = () => {
       <div className="container">
         <div className="w-full mx-auto text-center mb-10">
             <h2 className="mb-4 text-3xl font-bold !leading-tight text-white dark:text-white sm:text-4xl md:text-[45px]">
-              Cómo acceder a tu membresia  
+              Cómo acceder a tu membresía  
               <Image className="inline-flex ml-5 "
                 src="/images/logo/M-KareTITULO-BLANCO.png" 
                 alt='mkare' 

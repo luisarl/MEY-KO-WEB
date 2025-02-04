@@ -13,6 +13,7 @@ const testimonialData: Testimonial[] = [
     image: "/images/testimonials/MEDICO-1.png",
     star: 5,
     boton: 'Compra tu membresia',
+    mt: 5 ,
   },
   {
     id: 2,
@@ -23,6 +24,7 @@ const testimonialData: Testimonial[] = [
     image: "/images/testimonials/MEDICO-2.png",
     star: 5,
     boton: 'Activa tu membresia',
+    mt: 5 ,
 
   },
   {
@@ -34,6 +36,7 @@ const testimonialData: Testimonial[] = [
     image: "/images/testimonials/MEDICO-3.png",
     star: 5,
     boton: 'Inicia Sesión',
+    mt: 12 ,
   },
 ];
 
@@ -47,7 +50,7 @@ const Testimonials = () => {
               <Image className="inline-flex ml-5 "
                 src="/images/logo/M-KareTITULO-BLANCO.png" 
                 alt='mkare' 
-                width={300} 
+                width={220} 
                 height={100}
               />
             </h2>

@@ -5,5 +5,6 @@ export type Testimonial = {
   content: string;
   image: string;
   star: number;
-  boton: string
+  boton: string;
+  mt: number;
 };

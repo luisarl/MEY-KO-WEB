@@ -16,10 +16,10 @@ const Features = () => {
             <h2 className="mb-4 text-3xl font-bold !leading-tight text-primary dark:text-white sm:text-4xl md:text-[45px]">
             ¿Por qué elegir 
 
-              <Image className="inline-flex ml-5 "
-                src="/images/logo/M-KareTITULO-AZUL.png" 
+              <Image className="inline-flex ml-5 mr-3"
+                src="/images/logo/M-KareTITULO-A.png" 
                 alt='mkare' 
-                width={200} 
+                width={220} 
                 height={100}
               />
             ?

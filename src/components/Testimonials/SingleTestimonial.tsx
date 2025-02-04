@@ -7,7 +7,7 @@ const starIcon = (
 );
 
 const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
-  const { star, name, image, content, designation, boton } = testimonial;
+  const { star, name, image, content, designation, boton, mt } = testimonial;
 
   let ratingIcons = [];
   for (let index = 0; index < star; index++) {
@@ -23,22 +23,23 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
       
       <div className="rounded-sm bg-primary p-8 shadow-two duration-300 hover:shadow-one dark:bg-dark dark:shadow-three dark:hover:shadow-gray-dark lg:px-5 xl:px-8">
       <div className="flex flex-col items-center">
-          <div className="relative items-center justify-center mb-5 h-[200px] max-w-[200px] bg-white overflow-hidden rounded-full">
+          <div className="relative mb-5 h-[200px] max-w-[200px] bg-white overflow-hidden rounded-full">
             <Image src={image} alt={name}  width={200} height={200}/>
           </div>
-          <div className="w-full items-center justify-center text-center">
+          <div className="w-full items-end text-center">
             <h3 className="mb-5 border-b border-white border-opacity-10 text-lg font-semibold text-white dark:text-white lg:text-base xl:text-lg">
               {name}
+              
             </h3>
             {/* <p className="text-sm text-body-color">{designation}</p> */}
           </div>
         </div>
         {/* <div className="mb-5 flex items-center space-x-1">{ratingIcons}</div> */}
-        <p className="mb-8 align-bottom justify-end items-center border-b border-white border-opacity-10 pb-8 text-base leading-relaxed text-white dark:border-white dark:border-opacity-10 dark:text-white">
+        <p className="mb-8 align-bottom text-center  pb-8 text-base leading-relaxed text-white dark:border-white dark:border-opacity-10 dark:text-white">
           {content}
         </p>
-        <div className="mb-8 border-b border-white border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
-          <button className="flex w-full border border-white items-center justify-center rounded-lg bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+        <div className="flex border-b border-white border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
+          <button className={`w-full mt-${mt} border border-white rounded-lg bg-primary p-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp`}>
             {boton}
           </button>
         </div>

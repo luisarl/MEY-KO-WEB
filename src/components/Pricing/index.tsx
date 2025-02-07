@@ -4,6 +4,7 @@ import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
 import Link from "next/link";
+import Image from "next/image";
 
 const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
@@ -37,11 +38,15 @@ const Pricing = () => {
             subtitle=""
             boton ={
               <a href="https://meyko-desarrollo-16772699.dev.odoo.com/shop/add_to_cart?product_id=58572&add_qty=1" target="_blank">
-                <button className="w-full mt-40 items-center justify-center content-center rounded-lg bg-gradient-to-r from-amber-400 from-50% via-amber-300 via-85% to-amber-300 to-100% p-3 boton-membresia text-[35px]  text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-                  Comprar membresía 
-                 <br />
-                 <strong className="font-bold text-[50px]  text-body-color">GOLD</strong>
-                </button>
+                <Image
+                src="/images/pricing/MGOLD.png"
+                alt="platinum"
+                width="400"
+                height="60"
+                className="w-full mt-36 items-center justify-center content-center max-h-[115px]"
+                >
+
+                </Image>
               </a>
             }
           >
@@ -59,11 +64,14 @@ const Pricing = () => {
             subtitle=""
             boton={
               <a href="https://meyko-desarrollo-16772699.dev.odoo.com/shop/add_to_cart?product_id=58573&add_qty=1" target="_blank">
-                <button className="w-full mt-16 items-center justify-center rounded-lg bg-gradient-to-r from-gray-300 from-70% via-gray-100 via-90% to-gray-300 to-100% p-3 boton-membresia text-[35px]  text-primary transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-                  Comprar membresía 
-                  <br />
-                  <strong className="font-bold text-[50px]  text-body-color">PLATINUM</strong>
-                </button>
+                <Image
+                src="/images/pricing/MPLATINUM.png"
+                alt="platinum"
+                width="400"
+                height="60"
+                className="w-full mt-12 items-center justify-center content-center max-h-[120px]"
+                >
+                </Image>
               </a>
             }
           >

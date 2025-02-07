@@ -37,7 +37,7 @@ const PricingBox = (props: {
               </h3>
           </div>
         <div className="px-9 py-3">{children}</div>
-        <div className="mb-8 px-5 border-b border-body-color border-opacity-10 pb-8  dark:border-white dark:border-opacity-10">
+        <div className="mb-2 px-5 border-b border-body-color border-opacity-10 pb-8  dark:border-white dark:border-opacity-10">
           {boton}
         </div>
       </div>
